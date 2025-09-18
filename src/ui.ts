@@ -1,3 +1,5 @@
+import { Pelicula } from "./modelo";
+
 const crearTitulo = (tituloSeccion: string): HTMLHeadingElement => {
   const titulo = document.createElement("h2");
   titulo.textContent = tituloSeccion;

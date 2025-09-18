@@ -21,7 +21,7 @@ export const peliculas: Pelicula[] = [
     premioGalardon: true,
     fechaEstreno: new Date("2011-11-02"),
     imagen:
-      "https://raw.githubusercontent.com/Lemoncode/fotos- ejemplos/main/mflix/intocable.png",
+      "https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/mflix/intocable.png",
   },
   {
     titulo: "The Karate Kid",
@@ -32,7 +32,7 @@ export const peliculas: Pelicula[] = [
     premioGalardon: false,
     fechaEstreno: new Date("1984-06-22"),
     imagen:
-      "https://raw.githubusercontent.com/Lemoncode/fotos- ejemplos/main/mflix/karate-kid.png",
+      "https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/mflix/karate-kid.png",
   },
   {
     titulo: "Poli de Guardería",
