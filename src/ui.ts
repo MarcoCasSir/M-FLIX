@@ -46,6 +46,10 @@ export const pintarListaPeliculas = (
     // añadir div contenedor de Pelicas al div lista de peliculas
     divListaPeliculas.appendChild(divPeliculasContenedor);
 
+    // añadir flechas
+    añadirFlecha(divPeliculasContenedor, "izquierda");
+    añadirFlecha(divPeliculasContenedor, "derecha");
+
     // pintar películas
     listaPeliculas.forEach((pelicula) => {
       // crear div película
@@ -68,7 +72,9 @@ const añadirFlecha = (contenedor: HTMLDivElement, tipo: TipoFlecha): void => {
 
   const imgFlecha = document.createElement("img");
   imgFlecha.src = tipo === "izquierda" ? flechas.left : flechas.right;
+
   divFlecha.appendChild(imgFlecha);
+
   divFlecha.addEventListener("click", () => {
     if (tipo === "izquierda") {
       contenedor.scrollBy({
