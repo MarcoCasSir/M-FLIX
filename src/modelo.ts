@@ -8,3 +8,12 @@ export interface Pelicula {
   fechaEstreno: Date;
   imagen: string;
 }
+
+export type TipoFlecha = "izquierda" | "derecha";
+
+export const nombreClases = {
+  peliculas: "peliculas",
+  listaPeliculas: "lista-peliculas",
+  peliculasContenedor: "peliculas-contenedor",
+  pelicula: "pelicula",
+};

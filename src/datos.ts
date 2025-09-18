@@ -10,7 +10,7 @@ export const peliculas: Pelicula[] = [
     premioGalardon: true,
     fechaEstreno: new Date("1995-08-04"),
     imagen:
-      "https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/mflix/babe.png",
+      "https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/mflix/babe.png?raw=true",
   },
   {
     titulo: "Intocable",
@@ -21,7 +21,7 @@ export const peliculas: Pelicula[] = [
     premioGalardon: true,
     fechaEstreno: new Date("2011-11-02"),
     imagen:
-      "https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/mflix/intocable.png",
+      "https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/mflix/intocable.png?raw=true",
   },
   {
     titulo: "The Karate Kid",
@@ -32,7 +32,7 @@ export const peliculas: Pelicula[] = [
     premioGalardon: false,
     fechaEstreno: new Date("1984-06-22"),
     imagen:
-      "https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/mflix/karate-kid.png",
+      "https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/mflix/karate-kid.png?raw=true",
   },
   {
     titulo: "Poli de Guardería",
@@ -43,7 +43,7 @@ export const peliculas: Pelicula[] = [
     premioGalardon: false,
     fechaEstreno: new Date("1990-12-21"),
     imagen:
-      "https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/mflix/poli-guarderia.png",
+      "https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/mflix/poli-guarderia.png?raw=true",
   },
   {
     titulo: "El príncipe de Zamunda",
@@ -54,7 +54,7 @@ export const peliculas: Pelicula[] = [
     premioGalardon: false,
     fechaEstreno: new Date("1988-06-29"),
     imagen:
-      "https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/mflix/principe-zamunda.png",
+      "https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/mflix/principe-zamunda.png?raw=true",
   },
   {
     titulo: "Angry Birds",
@@ -65,7 +65,7 @@ export const peliculas: Pelicula[] = [
     premioGalardon: false,
     fechaEstreno: new Date("2016-05-11"),
     imagen:
-      "https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/mflix/angry-birds.png",
+      "https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/mflix/angry-birds.png?raw=true",
   },
   {
     titulo: "Los Croods",
@@ -77,7 +77,7 @@ export const peliculas: Pelicula[] = [
     premioGalardon: false,
     fechaEstreno: new Date("2013-03-15"),
     imagen:
-      "https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/mflix/croods.png",
+      "https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/mflix/croods.png?raw=true",
   },
   {
     titulo: "José, el rey de los sueños",
@@ -88,7 +88,7 @@ export const peliculas: Pelicula[] = [
     premioGalardon: false,
     fechaEstreno: new Date("2000-10-27"),
     imagen:
-      "https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/mflix/jose.png",
+      "https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/mflix/jose.png?raw=true",
   },
   {
     titulo: "La patrulla canina",
@@ -99,7 +99,7 @@ export const peliculas: Pelicula[] = [
     premioGalardon: false,
     fechaEstreno: new Date("2021-08-20"),
     imagen:
-      "https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/mflix/patrulla-canina.png",
+      "https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/mflix/patrulla-canina.png?raw=true",
   },
   {
     titulo: "Los pitufos",
@@ -110,7 +110,7 @@ export const peliculas: Pelicula[] = [
     premioGalardon: false,
     fechaEstreno: new Date("2011-07-29"),
     imagen:
-      "https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/mflix/pitufos.png",
+      "https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/mflix/pitufos.png?raw=true",
   },
   {
     titulo: "El cazador y la reina del hielo",
@@ -121,7 +121,7 @@ export const peliculas: Pelicula[] = [
     premioGalardon: false,
     fechaEstreno: new Date("2016-04-08"),
     imagen:
-      "https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/mflix/cazador.png",
+      "https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/mflix/cazador.png?raw=true",
   },
   {
     titulo: "Ghost Rider",
@@ -132,7 +132,7 @@ export const peliculas: Pelicula[] = [
     premioGalardon: false,
     fechaEstreno: new Date("2007-02-16"),
     imagen:
-      "https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/mflix/ghost-rider.png",
+      "https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/mflix/ghost-rider.png?raw=true",
   },
   {
     titulo: "La momia",
@@ -143,7 +143,7 @@ export const peliculas: Pelicula[] = [
     premioGalardon: false,
     fechaEstreno: new Date("2008-08-01"),
     imagen:
-      "https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/mflix/momia.png",
+      "https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/mflix/momia.png?raw=true",
   },
   {
     titulo: "Vampire Academy",
@@ -154,7 +154,7 @@ export const peliculas: Pelicula[] = [
     premioGalardon: false,
     fechaEstreno: new Date("2014-02-14"),
     imagen:
-      "https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/mflix/vampire-academy.png",
+      "https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/mflix/vampire-academy.png?raw=true",
   },
   {
     titulo: "Warcraft: El origen",
@@ -165,6 +165,6 @@ export const peliculas: Pelicula[] = [
     premioGalardon: false,
     fechaEstreno: new Date("2016-06-03"),
     imagen:
-      "https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/mflix/warcraft.png",
+      "https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/mflix/warcraft.png?raw=true",
   },
 ];
