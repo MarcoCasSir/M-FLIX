@@ -9,6 +9,18 @@ export interface Pelicula {
   imagen: string;
 }
 
+// este objecto filtro sirve para encapsular los parametros de busqueda
+export interface FiltroPeliculas {
+  genero?: TipoGenero;
+  caracteristica: TipoCaracteristica;
+}
+
+//este objecto de configuracion
+export interface ListaPeliculasConfiguracion {
+  titulo: string;
+  filtro?: FiltroPeliculas;
+}
+
 export type TipoFlecha = "izquierda" | "derecha";
 
 export const nombreClases = {
@@ -17,3 +29,7 @@ export const nombreClases = {
   peliculasContenedor: "peliculas-contenedor",
   pelicula: "pelicula",
 };
+
+export type TipoCaracteristica = "genero";
+
+export type TipoGenero = "Familiar" | "Aventuras" | "Animacion";

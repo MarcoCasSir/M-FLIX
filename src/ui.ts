@@ -1,6 +1,13 @@
-import { Pelicula, nombreClases, TipoFlecha } from "./modelo";
+import {
+  Pelicula,
+  nombreClases,
+  ListaPeliculasConfiguracion,
+  TipoFlecha,
+} from "./modelo";
 
 import { flechas } from "./constantes";
+
+import { filtrarPeliculas } from "./motor";
 
 const crearTitulo = (tituloSeccion: string): HTMLHeadingElement => {
   const titulo = document.createElement("h2");
@@ -80,8 +87,8 @@ const pintarPeliculas = (
   });
 
 export const pintarListaPeliculas = (
-  tituloSeccion: string,
-  listaPeliculas: Pelicula[]
+  listaPeliculas: Pelicula[],
+  configuracion: ListaPeliculasConfiguracion
 ): void => {
   // obtener el div principal
   const appDiv = document.getElementById("principal");
@@ -92,7 +99,7 @@ export const pintarListaPeliculas = (
     const creaDivPeliculas = crearContenedor(nombreClases.peliculas, appDiv);
 
     // crear título y añadir el titulo al div de peliculas
-    agregarTitulo(tituloSeccion, creaDivPeliculas);
+    agregarTitulo(configuracion.titulo, creaDivPeliculas);
 
     // crear div lista de peliculas
     const divListaPeliculas = crearContenedor(
@@ -110,7 +117,12 @@ export const pintarListaPeliculas = (
     pintarFlechas(divPeliculasContenedor);
 
     // pintar películas
-    pintarPeliculas(listaPeliculas, divPeliculasContenedor);
+
+    const peliculasFiltradas = filtrarPeliculas(
+      listaPeliculas,
+      configuracion.filtro
+    );
+    pintarPeliculas(peliculasFiltradas, divPeliculasContenedor);
   } else {
     console.error("No se encontró el elemento");
   }
